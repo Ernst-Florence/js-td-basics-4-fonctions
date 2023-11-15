@@ -1,51 +1,57 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 6. FONCTION ANONYME
 
-// 1°) Déclaration de fonction sous la forme d'une expression de fonction
+// 1°) Délcaration de fonction sous la forme d'une expression de fonction
 
-// a) sans paramètre ni return
+// 	a) sans paramètre ni return
 
 /* EXERCICE :
-- Déclarez sous la forme d'une expression de fonction
+- Déclarer sous la forme d'une expression de fonction
   la fonction direBonjour qui affiche "Bonjour !" dans la console
-- Exécutez la fonction
+- Exécuter la fonction
 */
 
-// Expression de fonction sans paramètre ni return
+// const bonjour = function (){
+//   console.log("bonjour !");
+// }
+//
+// bonjour();
 
 
-// Appel de la fonction
 
-
-
-// b) sans paramètre mais avec return
+// 	b) sans paramètre mais avec return
 
 /* EXERCICE 2 :
-- Déclarez sous la forme d'une expression de fonction
+- Déclarer sous la forme d'une expression de fonction
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
-- Utilisez-la pour afficher "Bonjour !" dans la console
+- L'utiliser pour afficher "Bonjour !" dans la console
 */
 
-// Expression de fonction sans paramètre mais avec return
-;
 
-// Utilisation de la fonction pour afficher "Bonjour !" dans la console
+// const bonjour = function (){
+//   return "bonjour"
+// }
+//
+// console.log(bonjour());
 
 
 
 // c) avec paramètre et return
 
 /* EXERCICE 3 :
-- Déclarez sous la forme d'une expression de fonction la fonction salue qui
+- Déclarer sous la forme d'une expression de fonction la fonction salue qui
    - prend le paramètre prenom
-   - stocke dans une variable message "Bonjour !"
+   - stocke dans une variable message "Bonjour  !"
    - retourne ce message
-- Utilisez-la pour saluer Thomas dans la console
+- L'utiliser pour saluer Thomas dans la console
 */
 
-// Expression de fonction avec paramètre et return
-
-// Utilisation de la fonction pour saluer Thomas dans la console
+// function salue(prenom) {
+//   let message = `bonjour ${prenom}`;
+//   return message;
+// }
+//
+// console.log(salue("thomas"));

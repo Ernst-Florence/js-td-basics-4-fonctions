@@ -1,6 +1,6 @@
 /*
 FONCTIONS - PRÉPA 1 : Le carré d'un nombre
-1. a) Déclarez la fonction carre1() avec la syntaxe normale
+1. a) Déclarez la fonctions carre1() avec la syntaxe normale
       pour qu'elle calcule et renvoie le carré du nombre passé en paramètre
    b) Utilisez ensuite cette fonction pour afficher dans la console
 	  - le carré de 0
@@ -14,16 +14,26 @@ FONCTIONS - PRÉPA 1 : Le carré d'un nombre
 	  - le carré de 5
 */
 
-// Déclarer carre1 pour qu'elle retourne le carré de x
+// Déclarer carre1 pour qu'elle retroune le carré de x
 
+function carre1 (nombre){
+    nombre = nombre*nombre;
+    return nombre;
+}
 
 // Calculer le carré de 0, 2 et 5 en utilisant carre1
+
+console.log(carre1(0));
+console.log(carre1(2));
+console.log(carre1(5));
 
 
 
 // Déclarer carre2 (en utilisant une fonction fléchée) pour qu'elle retourne le carré de x
 
-
+const carre2 = (nombre) => console.log(nombre * nombre);
 
 // Calculer le carré de 0, 2 et 5 en utilisant carre2
-
+carre2(0);
+carre2(2);
+carre2(5);
